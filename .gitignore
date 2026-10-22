@@ -1,0 +1,20 @@
+
+# 忽略 Git 软件安装目录
+/Git/
+
+# 忽略 Node.js 依赖
+/node_modules/
+
+# 忽略 VitePress 缓存和构建文件
+/docs/.vitepress/cache/
+/docs/.vitepress/dist/
+
+# 忽略本地环境配置
+.env
+.env.*
+!.env.example
+
+# 忽略系统文件和日志
+.DS_Store
+Thumbs.db
+*.log
